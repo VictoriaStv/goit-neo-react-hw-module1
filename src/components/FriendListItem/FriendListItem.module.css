@@ -14,9 +14,8 @@
   margin: 0;
 }
 
-.card p {
+.card:first-child {
   font-size: xx-large;
-  box-sizing: border-box;
 }
 
 .card img {
