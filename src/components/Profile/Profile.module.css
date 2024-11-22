@@ -2,6 +2,7 @@
   border: 2px solid #2a2a2a;
   border-radius: 5px;
   margin: 0;
+  max-width: 400px;
 }
 
 .profile {

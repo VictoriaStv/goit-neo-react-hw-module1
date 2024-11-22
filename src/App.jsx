@@ -2,10 +2,12 @@ import "modern-normalize/modern-normalize.css";
 import "./App.css";
 
 import userData from "./userData.json";
+import friends from "./friends.json";
 
 import Profile from "./components/Profile/Profile";
 
 import "./App.css";
+import FriendList from "./components/FriendList/FriendList";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+
+      <FriendList friends={friends} />
     </>
   );
 };
